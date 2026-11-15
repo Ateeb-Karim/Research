@@ -1,0 +1,9 @@
+app,page,condition,n,fcp_median,fcp_min,fcp_max,lcp_median,lcp_min,lcp_max,tbt_median,tbt_min,tbt_max,speed_index_median,score_median
+react-csr,list,unthrottled,20,1628.7,870.0,4444.8,2506.5,1003.1,6683.4,0.0,0.0,0.0,2470.0,89
+nextjs-ssr,list,unthrottled,20,1602.0,1078.9,2434.7,1602.0,1078.9,2434.7,0.0,0.0,0.0,1956.5,99
+react-csr,detail,unthrottled,20,1329.4,883.5,8668.6,1329.4,883.5,8668.6,0.0,0.0,0.0,1330.5,100
+nextjs-ssr,detail,unthrottled,20,1366.4,1021.8,2882.6,2102.7,1154.8,7080.9,0.0,0.0,5.2,1449.0,99
+react-csr,list,slow4g,20,1017.0,893.3,1845.8,2688.9,1699.9,3546.5,90.0,25.0,114.0,3276.3,87
+nextjs-ssr,list,slow4g,20,1199.4,1020.5,2313.8,1199.4,1020.5,2313.8,100.3,59.5,177.0,3035.8,99
+react-csr,detail,slow4g,20,794.0,756.2,1449.1,794.0,756.2,1449.1,16.8,0.0,253.0,2338.3,100
+nextjs-ssr,detail,slow4g,20,1071.1,859.5,1384.3,2144.2,1925.7,2515.3,172.5,109.0,282.0,2387.0,96

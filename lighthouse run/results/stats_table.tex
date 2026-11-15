@@ -1,0 +1,25 @@
+\begin{table}[t]
+\caption{Mann-Whitney U tests, CSR vs SSR (Holm-adjusted $p$; $r$ = rank-biserial correlation, positive when SSR is faster)}
+\label{tab:stats}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lllrrr@{}}
+\toprule
+Metric & Page & Condition & $U$ & $p_{\mathrm{adj}}$ & $r$ \\
+\midrule
+LCP & List & Unthrottled & 337 & 0.002 & +0.69 \\
+LCP & List & Slow 4G & 400 & $<0.001$ & +1.00 \\
+LCP & Detail & Unthrottled & 348 & $<0.001$ & +0.74 \\
+LCP & Detail & Slow 4G & 308 & 0.022 & +0.54 \\
+FCP & List & Unthrottled & 261 & 0.407 & +0.30 \\
+FCP & List & Slow 4G & 180 & 1.000 & -0.10 \\
+FCP & Detail & Unthrottled & 316 & 0.015 & +0.58 \\
+FCP & Detail & Slow 4G & 81 & 0.012 & -0.59 \\
+Visible & List & Unthrottled & 312 & 0.018 & +0.56 \\
+Visible & List & Slow 4G & 219 & 1.000 & +0.09 \\
+Visible & Detail & Unthrottled & 245 & 0.686 & +0.23 \\
+Visible & Detail & Slow 4G & 277 & 0.193 & +0.39 \\
+\bottomrule
+\end{tabular}
+\end{table}

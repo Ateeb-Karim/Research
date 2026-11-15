@@ -1,0 +1,17 @@
+app,page,condition,run,fcp_ms,lcp_ms,tbt_ms,cls,speed_index_ms,products_visible_ms,score,benchmark_index,lighthouse_version
+react-csr,list,unthrottled,1,1450.2,1866.5,0.0,0.0000,1816.0,1791.9,99,1808,13.6.0
+nextjs-ssr,list,unthrottled,1,970.9,970.9,25.0,0.0000,995.0,934.0,100,1880,13.6.0
+react-csr,list,unthrottled,2,2579.3,2579.3,0.0,0.0000,2531.0,1318.8,93,2075.5,13.6.0
+nextjs-ssr,list,unthrottled,2,1060.8,1060.8,0.0,0.0000,1053.0,992.2,100,2094.5,13.6.0
+react-csr,detail,unthrottled,1,1180.2,1263.6,0.0,0.0000,1103.0,1140.5,100,2086,13.6.0
+nextjs-ssr,detail,unthrottled,1,981.7,981.7,0.0,0.0000,967.0,806.9,100,2093.5,13.6.0
+react-csr,detail,unthrottled,2,963.3,1063.2,0.0,0.0000,896.0,938.2,100,2083.5,13.6.0
+nextjs-ssr,detail,unthrottled,2,1125.5,1125.5,0.0,0.0000,1115.0,1095.6,100,2093,13.6.0
+react-csr,list,slow4g,1,1699.4,3466.6,76.0,0.0000,3405.4,1941.3,89,2094.5,13.6.0
+nextjs-ssr,list,slow4g,1,1293.4,1293.4,53.5,0.0000,2101.7,1077.9,100,2108,13.6.0
+react-csr,list,slow4g,2,1756.7,1756.7,54.5,0.0000,4262.4,1113.3,96,2083.5,13.6.0
+nextjs-ssr,list,slow4g,2,1276.3,1276.3,98.5,0.0000,1904.8,812.1,99,2101,13.6.0
+react-csr,detail,slow4g,1,1760.9,2491.1,0.0,0.0000,4227.8,958.5,94,2081,13.6.0
+nextjs-ssr,detail,slow4g,1,1452.4,3229.9,168.0,0.0000,2502.5,1259.4,90,2098,13.6.0
+react-csr,detail,slow4g,2,997.2,2574.3,11.0,0.0000,1671.1,894.6,97,2083,13.6.0
+nextjs-ssr,detail,slow4g,2,1249.9,2645.3,81.5,0.0000,2065.0,928.0,96,2079,13.6.0

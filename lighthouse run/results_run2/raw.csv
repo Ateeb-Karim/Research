@@ -1,0 +1,9 @@
+app,page,condition,run,fcp_ms,lcp_ms,tbt_ms,cls,speed_index_ms,score,benchmark_index,lighthouse_version
+react-csr,list,unthrottled,1,1247.0,2445.7,0.0,0.1423,2357.0,92,2087.5,13.6.0
+react-csr,list,unthrottled,2,1544.6,2027.4,0.0,0.2387,1964.0,87,2105.5,13.6.0
+react-csr,detail,unthrottled,1,1822.3,1972.1,0.0,0.0000,1738.0,98,2070,13.6.0
+react-csr,detail,unthrottled,2,2585.6,2585.6,0.0,0.0000,2541.0,93,2084.5,13.6.0
+react-csr,list,slow4g,1,1747.6,1747.6,25.5,0.0000,4393.2,96,1990,13.6.0
+react-csr,list,slow4g,2,995.8,2668.1,92.0,0.2067,2139.0,86,2047,13.6.0
+react-csr,detail,slow4g,1,1743.9,2477.1,0.0,0.0000,4217.1,94,2059.5,13.6.0
+react-csr,detail,slow4g,2,1761.8,2494.3,0.0,0.0000,4247.5,94,2062,13.6.0
